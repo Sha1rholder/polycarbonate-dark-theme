@@ -35,6 +35,7 @@
         "error.background": "#000D",
         "warning.background": "#000D",
         "info.background": "#000D",
+        "hint.background": "#000D",
 
         "created": "#0F0B",
         "deleted": "#F00B",
@@ -127,6 +128,7 @@
         "error.background": "#000D",
         "warning.background": "#000D",
         "info.background": "#000D",
+        "hint.background": "#000D",
 
         "created": "#0F0B",
         "deleted": "#F00B",
@@ -260,6 +262,7 @@
         "error.background": "#000D",
         "warning.background": "#000D",
         "info.background": "#000D",
+        "hint.background": "#000D",
 
         "created": "#0F0B",
         "deleted": "#F00B",
@@ -395,6 +398,7 @@
         "error.background": "#000D",
         "warning.background": "#000D",
         "info.background": "#000D",
+        "hint.background": "#000D",
 
         "created": "#0F0B",
         "deleted": "#F00B",
@@ -523,12 +527,13 @@
         "ghost_element.hover": "#FFFFFF0B",
         "ghost_element.active": "#FFFFFF0B",
 
-        "elevated_surface.background": "#000C",
+        "elevated_surface.background": "#000D",
         "surface.background": "#FFFFFF0B",
 
-        "error.background": "#000C",
-        "warning.background": "#000C",
-        "info.background": "#000C",
+        "error.background": "#000D",
+        "warning.background": "#000D",
+        "info.background": "#000D",
+        "hint.background": "#000D",
 
         "created": "#0F06",
         "deleted": "#F006",
@@ -615,12 +620,13 @@
         "ghost_element.hover": "#FFFFFF0B",
         "ghost_element.active": "#FFFFFF0B",
 
-        "elevated_surface.background": "#000C",
+        "elevated_surface.background": "#000D",
         "surface.background": "#FFFFFF0B",
 
-        "error.background": "#000C",
-        "warning.background": "#000C",
-        "info.background": "#000C",
+        "error.background": "#000D",
+        "warning.background": "#000D",
+        "info.background": "#000D",
+        "hint.background": "#000D",
 
         "created": "#0F06",
         "deleted": "#F006",
@@ -748,12 +754,13 @@
         "ghost_element.hover": "#FFFFFF0B",
         "ghost_element.active": "#FFFFFF0B",
 
-        "elevated_surface.background": "#000C",
+        "elevated_surface.background": "#000D",
         "surface.background": "#FFFFFF0B",
 
-        "error.background": "#000C",
-        "warning.background": "#000C",
-        "info.background": "#000C",
+        "error.background": "#000D",
+        "warning.background": "#000D",
+        "info.background": "#000D",
+        "hint.background": "#000D",
 
         "created": "#0F06",
         "deleted": "#F006",
@@ -883,12 +890,13 @@
         "ghost_element.hover": "#FFFFFF0B",
         "ghost_element.active": "#FFFFFF0B",
 
-        "elevated_surface.background": "#000C",
+        "elevated_surface.background": "#000D",
         "surface.background": "#FFFFFF0B",
 
-        "error.background": "#000C",
-        "warning.background": "#000C",
-        "info.background": "#000C",
+        "error.background": "#000D",
+        "warning.background": "#000D",
+        "info.background": "#000D",
+        "hint.background": "#000D",
 
         "created": "#0F06",
         "deleted": "#F006",
