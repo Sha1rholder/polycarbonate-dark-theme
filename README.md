@@ -27,7 +27,7 @@ Turn Zed into a clean slab of dark glass.
 
 ## Using with TranslucentTB
 
-When using it with [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB), it is recommended to set the accent to `clear` and the color to `#000000DD` (8 bpc) or `#000000EE` (10 bpc). This will seamlessly blend Zed with the Windows taskbar, as shown in the preview.
+When using it with [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB), it is recommended to set the accent to `clear` and the color to `#000000DD`. This will seamlessly blend Zed with the Windows taskbar, as shown in the preview.
 
 ## Common Customizations
 
@@ -57,4 +57,6 @@ When using it with [TranslucentTB](https://github.com/TranslucentTB/TranslucentT
 
 ## Known Issues
 
-Under 10 bpc, the Windows Multi Panel Overlay (MPO) function may encounter a graphics driver error that incorrectly calculates transparency. This bug causes the actual window transparency to be higher than the set transparency. In addition to Zed's native transparency settings, the [VSCode skacekachna.win-opacity plugin](https://marketplace.visualstudio.com/items?itemName=skacekachna.win-opacity), [foobar2000](https://www.foobar2000.org/), and TranslucentTB are all affected by this bug. If you think the default transparency of this plugin is too high, it is most likely due to this bug. The solution is to set the color depth output to 8 bpc.
+Zed's current transparency implementation prevents this theme from displaying git gutter colors. <https://github.com/zed-industries/zed/issues/55972>
+
+Under 10 bpc color depth, the Windows Multi Panel Overlay (MPO) function may encounter a graphics driver error that incorrectly calculates transparency. This bug causes the actual window transparency to be higher than the set transparency. In addition to Zed's native transparency settings, the [VSCode skacekachna.win-opacity plugin](https://marketplace.visualstudio.com/items?itemName=skacekachna.win-opacity), [foobar2000](https://www.foobar2000.org/), and TranslucentTB are all affected by this bug. If you think the default transparency of this plugin is too high, it is most likely due to this bug. The solution is to set the graphics card color depth output to 8 bpc.

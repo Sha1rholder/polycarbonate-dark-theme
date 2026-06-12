@@ -25,7 +25,7 @@
 
 ## 搭配TranslucentTB
 
-搭配[TranslucentTB](https://github.com/TranslucentTB/TranslucentTB)使用时，推荐将accent设为`clear`，color设为`#000000DD`(8 bpc)或`#000000EE`(10 bpc)。这将使Zed和Windows任务栏融为一体，如预览所示
+搭配[TranslucentTB](https://github.com/TranslucentTB/TranslucentTB)使用时，推荐将accent设为`clear`，color设为`#000000DD`。这将使Zed和Windows任务栏融为一体，如预览所示
 
 ## 常用自定义项
 
@@ -55,4 +55,6 @@
 
 ## 已知问题
 
-在10 bpc下，Windows Multi Panel Overlay (MPO)功能可能出现显卡驱动错误计算透明度bug，该bug会导致的窗口实际透明度高于设置透明度。除了Zed的原生透明度设置外，[VSCode skacekachna.win-opacity插件](https://marketplace.visualstudio.com/items?itemName=skacekachna.win-opacity)、[foobar2000](https://www.foobar2000.org/)以及TranslucentTB都受此bug影响。如果您认为本插件的默认透明度过高，那多半就是出现了该bug。解决方法就是将色深输出设为8 bpc
+Zed当前的透明度计算方式使本主题无法显示git gutter <https://github.com/zed-industries/zed/issues/55972>
+
+在10 bpc色深下，Windows Multi Panel Overlay (MPO)功能可能出现显卡驱动错误计算透明度bug，该bug会导致的窗口实际透明度高于设置透明度。除了Zed的原生透明度设置外，[VSCode skacekachna.win-opacity插件](https://marketplace.visualstudio.com/items?itemName=skacekachna.win-opacity)、[foobar2000](https://www.foobar2000.org/)以及TranslucentTB都受此bug影响。如果您认为本插件的默认透明度过高，那多半就是出现了该bug。解决方法就是将显卡色深输出设为8 bpc
